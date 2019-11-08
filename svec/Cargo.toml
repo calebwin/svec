@@ -1,0 +1,17 @@
+[package]
+name = "svec"
+version = "0.1.0"
+authors = ["Caleb Winston <calebhwin@gmail.com>"]
+edition = "2018"
+description = "A utility for Dart-style list in Rust"
+homepage = "https://www.github.com/calebwin/svec"
+documentation = "https://docs.rs/svec"
+repository = "https://www.github.com/calebwin/svec"
+keywords = ["svec", "vec", "Dart", "collection", "list"]
+readme = "README.md"
+categories = ["data-structures", "template-engine", "gui", "localization", "config"]
+license = "MIT"
+
+[dependencies]
+proc-macro-hack = "0.5"
+svec_macro = { path = "../svec_macro" }
