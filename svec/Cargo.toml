@@ -14,4 +14,4 @@ license = "MIT"
 
 [dependencies]
 proc-macro-hack = "0.5"
-svec_macro = { path = "../svec_macro" }
+svec_macro = "0.1.0"
